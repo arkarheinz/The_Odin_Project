@@ -7,15 +7,25 @@
 </head>
 <body>
     <h1>Home page</h1>
+    <h3>Absolute link</h3>
+    <p>This is the example of absolute link which lead to another website.</p>
     <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">Click me</a>
     <!--
     noopener and noreferrer are used for security purpose. It help website not to trick from original website to another.
     althought most of the website are already have that kind of security, it better to put these on.
     
     target attribute is assigned to let know that what your link should be. It decide link to jump to another tab and open or
-    open on the same web page. With the value of _blank your link will open in another tab.
+    open on the same web page. With the value of _blank your link will open in another tab and the value of _self will open link in same tag. 
     -->
-
+    <br><!--<br> is used when you want your element drop to next line.(it better to adjust in CSS.)-->
+    <h3>Relative link</h3>
+    <p>This is the example of relative link which link to different page of own website.</p>
     <a href="../boilerplate/index.html" target="_blank" rel="noopener noreferrer">Checking</a>
+    <!--this kind of way is right. but sometime it can cause an error. so use ./ to let know that start looking from current directory.-->
+    <h2>Images</h2>
+    <img src="./images/links_and_images/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg" alt="Dog_picture">
+    <!--
+        src attribute is and
+    -->
 </body>
 </html>
